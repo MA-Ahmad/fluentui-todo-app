@@ -31,7 +31,7 @@ const TodoList = () => {
     },
     {
       key: "status",
-      name: "Status",
+      name: "Complete Status",
       fieldName: "complete",
       minWidth: 100,
       maxWidth: 300,
@@ -69,12 +69,11 @@ const TodoList = () => {
   let styles = {
     root: {
       marginTop: "10px",
-      backgroundColor: "#8CC152",
+      backgroundColor: "#ECC1B8",
       paddingTop: "10px",
       paddingBottom: "10px",
       paddingLeft: "10px"
-    },
-    checkmark: {}
+    }
   };
 
   const handleChange = e => {
@@ -85,13 +84,17 @@ const TodoList = () => {
 
   const handleSubmit = e => {
     e.preventDefault();
-    const title = e.target.title.value;
-    const created_at = e.target.created_at.value;
-    const complete = isChecked;
 
     setItems(
       items.map(item =>
-        item.id === id ? { ...item, title, complete, created_at } : item
+        item.id === id
+          ? {
+              ...item,
+              title: e.target.title.value,
+              complete: isChecked,
+              created_at: e.target.created_at.value
+            }
+          : item
       )
     );
     setIsOpen(false);
