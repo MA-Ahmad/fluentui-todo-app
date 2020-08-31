@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f453d2236fcda6e3af08e3739ddcc78f",
+    "revision": "0d7f73752a73adac2d4107610965dd7e",
     "url": "/fluentui-todo-app/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/fluentui-todo-app/static/js/2.a4e6f6d4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "388174ddfa24f47dfe2f",
-    "url": "/fluentui-todo-app/static/js/main.46389c30.chunk.js"
+    "revision": "e2fc226c718945151725",
+    "url": "/fluentui-todo-app/static/js/main.37ece6cf.chunk.js"
   },
   {
     "revision": "83ae1558a9b3c89e4e73",

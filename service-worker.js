@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/fluentui-todo-app/precache-manifest.cc1d5fefbd927d4b69322b9310f1e066.js"
+  "/fluentui-todo-app/precache-manifest.18c9bd1035314d5c38b5ee83f652ddeb.js"
 );
 
 self.addEventListener('message', (event) => {
